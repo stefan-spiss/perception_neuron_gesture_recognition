@@ -1,0 +1,5 @@
+<launch>
+	<node name="serial_socket_node" pkg="rosserial_server" type="socket_node"/>
+	<node name="perception_neuron_tf_broadcaster_node" pkg="perception_neuron_tf_broadcaster" type="perception_neuron_tf_broadcaster_node"/>
+	<node name="perception_neuron_gesture_recognition_node" pkg="perception_neuron_gesture_recognition" type="perception_neuron_gesture_recognition_node"/>
+</launch>
